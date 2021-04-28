@@ -1,2 +1,2 @@
 # fortnite
-stuff
+This just contains all of my projects/scripts
