@@ -1,17 +1,3 @@
---MADE BY GAGOU_BLOXXER
-
---if you use this module in your game, would be nice if you credited me :)
-
---/!\I DO NOT TAKE ANY RESPONSIBILITY IN THE SCRIPT. USE IT, RESPECTING ROBLOX ToS, YOU'RE STILL RESPONSIBLE OF WHAT YOU'RE DOING WITH MY CODE.
---Will work most of the times, this code can make errors in precise cases, when multiple tags are inside other tags of the same type. 
---Do not forget to activate HTML requests.
-
---[[PLEASE READ: 
-  String manipulation isn't my strong point in lua. This script may seem deprecated in few months, as new functions may arrive.
-  If I'm not using an in-built function that I should use, or something is really wrong in my code, please contact me, and tell me it'll probably teach me something!
-
-	This module should be used, if you don't find APIs or JSON Data for a precise thing, and you only have the HTML page for use.
-]]
 --[[AVAILABLE FUNCTIONS:
  module:getElementsByClassName(PageDocument, classRequested, maxSize of the elements table)
 		>> returns a table of length [third paramter], including all the n'th elements having the requested class. (Just like the js DOM one)
