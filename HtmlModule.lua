@@ -173,5 +173,3 @@ function dom_module:getElementsByTagName(document,tagName,n)
 end
 
 return dom_module
-
---MADE BY GAGOUBLOXXER https://www.roblox.com/library/2765826599/HTML-Module-v2-in-the-making
