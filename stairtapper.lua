@@ -3,7 +3,7 @@ local vim = game:GetService("VirtualInputManager")
 local players = game:GetService("Players")
 local player = players.LocalPlayer
 local playerCharacter = workspace[player.Name]
-local title = player.PlayerGui.GameplayGUI.Timer.Title.TextLabel.Text
+local title = player.PlayerGui.GameplayGUI.Timer.Title.Text
 
 function hold(keyCode, time)
   vim:SendKeyEvent(true, keyCode, false, game)
@@ -32,7 +32,7 @@ function check()
     return true
 end
 
-local DiscordLib =loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+local DiscordLib =loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord"))()
 local win = DiscordLib:Window("discord library")
 local serv = win:Server("Main", "")
 local btns = serv:Channel("Main")
