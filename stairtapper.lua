@@ -42,7 +42,7 @@ local btns = serv:Channel("Main")
 local sliderValue = 75
 local sldr = btns:Slider(
     "AutoTap Speed",
-    3,
+    1,
     150,
     78,
     function(t)
